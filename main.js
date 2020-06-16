@@ -25,6 +25,6 @@ $('.nav-item').on('click', (e) => {
 })
 
 
-$('.snip1582').on('click', () => {
+$('.cross').on('click', () => {
     $('.aboutme').hide();
 })
