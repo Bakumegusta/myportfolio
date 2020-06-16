@@ -2,11 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>My Portfolio || Web developer</title>
-	<meta name="description" content="Full Stack Web Developer || Software Engineer">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="bakumegusta">
-    <meta name="keywords" content="bakumegusta.tech. bakumegusta tech,bakumegusta">
+	<title>My Portfolio</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -17,16 +13,6 @@
 <header class="header ">
     <nav class="navbar navbar-expand-lg  ">
         <div class="container"><a href="#" class="navbar-brand text-uppercase  mt-2">Bakumegusta</a>
-           <!--  <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item "><a href="#" class="nav-link text-uppercase font-weight-bold active">Home <span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
-                </ul>
-            </div> -->
         </div>
     </nav>
         <nav class="navbar navbar-expand-lg ">
@@ -35,9 +21,9 @@
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-4">
                     <li class="nav-item "><a href="#" class="nav-link text-uppercase font-weight-bold active home">Home 
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About me</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">My HoBBies</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact me</a></li>
+                    <li class="nav-item" ><a href="#" class="nav-link text-uppercase font-weight-bold"id="me">About me</a></li>
+                    <li class="nav-item" ><a href="#" class="nav-link text-uppercase font-weight-bold"id="mehobbies">My HoBBies</a></li>
+                    <li class="nav-item" ><a href="#" class="nav-link text-uppercase font-weight-bold"id="mecontact">Contact me</a></li>
                 </ul>
             </div>
         </div>
@@ -83,9 +69,54 @@
 		</div>
 	</div>
 
+	<!-- about me -->
+	<div id="aboutme"class="aboutme" style="display: none;">		
+				<h4>about me</h4>
+				<p class="myskill" >Fullstack developer <i class="fas fa-laptop-code aboutmecon"></i></p>
+				<p class="myskill" >reva university<i class="fas fa-user-graduate aboutmecon"></i></p>
+				<p class="myskill" >From India<i class="fas fa-map-marker-alt aboutmecon"></i></p>
+				<p class="myskill" >Gamer<i class="fas fa-gamepad aboutmecon"></i></p>
+				<p class="myskill" >Likes pizza<i class="fas fa-pizza-slice aboutmecon"></i></p>
+				<button class="snip1582">close</button>
+	</div>
+
+		<!-- hobbies me -->
+	<div id="hobbies" class="aboutme " style="display: none;">		
+				<h4>me hobbies</h4>
+				<p class="myskill" >coding<i class="fas fa-code aboutmecon"></i></p>
+				<p class="myskill" >listening to music <i class="fas fa-music aboutmecon"></i></p>
+				<p class="myskill" >gaming<i class="fas fa-gamepad aboutmecon"></i></p>
+				<p class="myskill" >cycling<i class="fas fa-biking aboutmecon"></i></p>
+				<p class="myskill" >hanging out with friends<i class="fas fa-user-friends aboutmecon"></i></p>
+				<button class="snip1582">close</button>
+	</div>
+
+		<!-- contact me -->
+	<div id="contact" class="aboutme"style="display: none;">		
+			<h4>Contact me</h4>
+			<p class="contactmehead" >If you wanna get in touch, talk to me about a project collaboration or just say hi,
+			fill up the cool form below or send an email to <span class="mail">bakumegusta@gmail.com</span> 
+			and ~let's chat.</p>
+
+			 <form name='contact'method="POST" data-netlify="true">
+	              <div class="form-group">
+	                <label>Name: </label>
+	                <input class="form-control" type="text" name="name" value="">
+	              </div>
+	              <div class="form-group">
+	                <label>Email: </label>
+	                <input class="form-control" type="email" name="email" value="" >
+	              </div>
+	              <div class="form-group">
+	                <label>Message: </label>
+	                <textarea class="form-control" name="message" value="" ></textarea>
+	              </div>
+			<button class="snip1582">submit</button>
+
+	           </form>		
+	</div>
+
 </div>
-
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js" integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0=" crossorigin="anonymous"></script>
