@@ -3,6 +3,9 @@ $('.nav-item').on('click', () => {
 })
 
 $('.nav-item').on('click', (e) => {
+    var x = document.getElementById("sound");
+
+    x.play();
     console.log(e.target.id);
     var id = e.target.id;
     if (id == 'me') {
@@ -27,4 +30,7 @@ $('.nav-item').on('click', (e) => {
 
 $('.cross').on('click', () => {
     $('.aboutme').hide();
+    var x = document.getElementById("sound");
+    x.play();
+
 })
