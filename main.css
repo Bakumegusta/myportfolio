@@ -337,14 +337,14 @@ footer{
   }
   .frontend {
     position: relative;
-    background: rgb(37, 43, 49);
+    background: rgb(93, 102, 111);
     margin-bottom: 5px;
     padding: 5px;
     border-radius: 20px 0px;
 }
 .backend {
   position: relative;
-  background: rgb(37, 43, 49);
+  background: rgb(93, 102, 111);
   margin-bottom: 5px;
   padding: 5px;
   border-radius: 20px 0px;
