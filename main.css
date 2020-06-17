@@ -7,7 +7,7 @@
 }
 body {
     max-height: 100vh;
-    background-image: url('background.jpg');
+    background-image: url('background1.jpeg');
      background-position: center; 
      background-repeat: no-repeat;
 }
@@ -49,6 +49,7 @@ body {
 
 .mainbody{
 	margin-top: 40px;
+  min-height: 80vh;
 }
 .dataleft{
 	width: 30%;
@@ -81,6 +82,9 @@ h4{
 }
 .mywork:hover{
 	border: 2px solid #5bc2cc;
+    width: 330px;
+    margin-left: 30px;
+    transition: ease 1s;
 }
 
 .dataright{
@@ -105,12 +109,18 @@ h4{
 .myskill{
 	font-size: 14px;
 	color: #c3c3b9;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    margin: 5px 30px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin: 5px 30px;
 	border-bottom: 5px solid #969695;
 	padding-bottom: 10px;
+  cursor: pointer;
+
+}
+.myskill:hover{
+border-bottom: 5px solid #5bc2cc;
+  color: #5bc2cc;
 
 }
 .skillcon{
@@ -121,19 +131,20 @@ h4{
 .infocon{
 	color: #5bc2cc;
 	position: absolute;
-	left: 93%;
+	right: 7%;
 }
 .datarighthead{
     position: absolute;
     right: 0;
     color: white;
     text-transform: uppercase;
-    top: -24px;
+    top: -35px;
     color:#5bc2cc !important;
+  /*background: rgba(52, 57, 61, .5);*/
 	background: linear-gradient(to bottom, rgb(52, 57, 61, 0), rgba(48, 77, 85, 1),rgba(44, 87, 96, 1));
 	border-bottom: 2px solid #bbcdce;
-	padding-right: 1rem;
-    padding-left: 1rem;
+	padding:10px;
+  font-size: 12px;
 }
 h4{
  border-bottom: 1px solid #5bc2cc;
@@ -172,7 +183,7 @@ a:hover{
   position: relative;
   text-transform: uppercase;
   font-weight: 700;
-	margin-left: 120px;
+	margin-left: 33%;
 }
 
 .snip1582:before,
@@ -353,7 +364,7 @@ footer{
   background: rgb(108, 116, 119);
     padding: 20px;
     position: fixed;
-    top: 20px;
+    top: 78px;
     left: 0%;
     width: 100%;
     border: 2px solid #5bc2cc;
