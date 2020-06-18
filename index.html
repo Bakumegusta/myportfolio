@@ -7,8 +7,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha256-aAr2Zpq8MZ+YA/D6JtRD3xtrwpEz2IqOS+pWD/7XKIw=" crossorigin="anonymous" />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<link rel="stylesheet" href="main.css">
-	<style>
+		<style>
         .icon{
             position: absolute;
             top: 25px;
@@ -42,24 +43,28 @@
 		}
 		@media only screen and (max-width: 600px) {
             .widgetbody {
-                position: fixed;
-                display: none;
-                width: 314px;
-                height: 440px;
-                right: 20px;
-                bottom: 100px;
+				width: 100%;
+				height: 100%;
+				right: 0px;
+				top: 50px;
+				bottom: 0px;
             }
+			iframe{
+				width: 100% !important;
+				height: 100% !important;
+			}
         }
  </style>
+
 </head>
 <body>
 	<audio id="sound">
 		<source src="soundclick.wav" type="audio/ogg">
 	  </audio>
 	<!-- Navbar-->
-<header class="header ">
+<header class="header">
     <nav class="navbar navbar-expand-lg  ">
-        <div class="container"><a href="#" class="navbar-brand text-uppercase  mt-2">Bakumegusta</a>
+        <div class="container"><a href="#" class="navbar-brand text-uppercase  mt-2">tensubam paikhomba singh</a>
         </div>
     </nav>
         <nav class="navbar navbar-expand-lg ">
@@ -75,8 +80,6 @@
             </div>
         </div>
     </nav>
-         
-
 </header>
 
 
@@ -89,12 +92,12 @@
 					<h4>My Works</h4>
 					<p style="margin-left:25px;" class="text-uppercase text-small"> Click on below projects to see live.</p>
 				</div>
-				<a href="https://mycorona.netlify.app/" target="_blank"><p class="mywork" id="mycorona">mycorona<i class="fas fa-arrow-right  infocon"></i></p></a> 
+				<a href="https://mycorona.netlify.app/" target="_blank"><p class="mywork" id="mycorona">corona Dashboard<i class="fas fa-arrow-right  infocon"></i></p></a> 
 				<a href="https://bakubot.herokuapp.com/" target="_blank"><p class="mywork" id="chatbot">chatbot <i class="fas fa-arrow-right  infocon"></i></p></a>
-				<a href="https://bakubot.herokuapp.com/dashboard" target="_blank"><p class="mywork" id="chatbotdash">chatbot(dashboard)<i class="fas fa-arrow-right  infocon"></i></p></a>
-				<a href="https://hofff.netlify.app/" target="_blank"><p class="mywork" id="hof">HOF(Ngo)<i class="fas fa-arrow-right  infocon"></i></p></a>
+				<a href="https://icrewbot.herokuapp.com/dashboard" target="_blank"><p class="mywork" id="chatbotdash">chatbot(dashboard)<i class="fas fa-arrow-right  infocon"></i></p></a>
+				<a href="https://hofff.netlify.app/" target="_blank"><p class="mywork" id="hof">ngo website<i class="fas fa-arrow-right  infocon"></i></p></a>
 				<a href="https://kgconverter.netlify.app/" target="_blank"><p class="mywork" id="weight">weight converter<i class="fas fa-arrow-right  infocon"></i></p></a>
-				<a href="https://askdoc.ai/" target="_blank"><p class="mywork" id="askdoc">askdoc.ai<i class="fas fa-arrow-right  infocon"></i></p></a>
+				<a href="https://askdoc.ai/" target="_blank"><p class="mywork" id="askdoc">internship project at corover<i class="fas fa-arrow-right  infocon"></i></p></a>
 		  </div>
 		  <div class=" dataright">
 			<div class="frontend">
